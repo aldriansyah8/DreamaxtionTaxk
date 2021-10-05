@@ -4,6 +4,18 @@
 ```
 npm install
 ```
+## Install JSON
+```
+npm install -g json-server
+```
+## JSON Server
+```
+json-server --watch db.json
+```
+## Install Axios
+```
+$ npm install axios
+```
 
 ### Compiles and hot-reloads for development
 ```
