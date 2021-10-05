@@ -1,0 +1,166 @@
+* {
+  font-size: 12px;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #F7F7F7;
+  --secondary-color: #FFF;
+  --redbg-color: #FFEBEE;
+  --redft-color: #F14541;
+  --greenbg-color: #F3FBFF;
+  --blueft-color: #0D8FED;
+  --greenbgtag-color: #CEEFE8;
+  --greenfttag-color: #3D7A69;
+  --ft-color: #505050;
+  --fttag-color: #F3F3F3;
+}
+
+body {
+  background-color: var(--primary-color);
+  margin: 0;
+  font-family: roboto;
+}
+
+.container h1 {
+  font-size: 3rem;
+  padding-bottom: 25px;
+}
+
+.container {
+  max-width: 1000px;
+  width: 90%;
+  margin: 100px auto;
+}
+
+.content {
+  width: 100%;
+  max-width: 200px;
+  float: left;
+  border-radius: 15px;
+  margin-right: 20px;
+  background-color: var(--secondary-color);
+  box-shadow: 0px 0px 10px #DFDFDF;
+}
+
+.in-content {
+  width: 70%;
+  margin: 25px auto;
+  text-align: left;
+  font-weight: bold;
+
+}
+
+.number {
+  font-size: 3rem;
+  text-align: center;
+  padding: 45px 0px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.default {
+  background-color: var(--fttag-color);
+}
+
+.color1 {
+  background-color: var(--redbg-color);
+  color: var(--redft-color);
+}
+
+.color2 {
+  background-color: var(--greenbg-color);
+  color: var(--blueft-color);
+}
+
+.color3 {
+  background-color: var(--greenbgtag-color);
+  color: var(--greenfttag-color);
+}
+
+.name-content {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+
+.description {
+  width: 100%;
+  height: 25px;
+  line-height: 25px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+  padding: 0px 10px;
+  border-radius: 5px;
+}
+
+@media all and (max-width: 755px) {
+  .container {
+    align-items: center;
+    margin-left: 5%;
+    margin-top: 70px;
+  }
+
+  .content {
+
+    max-width: 100%;
+    height: 110px;
+    margin-bottom: 30px;
+  }
+
+  .product {
+    padding: 0px;
+  }
+
+  .product h1 {
+    font-size: 3.5rem;
+    padding-top: 25px;
+    padding-bottom: 0px;
+  }
+
+  .in-content {
+    margin: 0;
+    padding: 0px;
+  }
+
+  .number {
+    float: left;
+    font-size: 1.8rem;
+    width: 70px;
+    margin: 22px;
+    padding: 22px 0px;
+  }
+
+
+  .desc-content {
+    width: 150px;
+    height: 60px;
+    margin: 27px 0;
+    float: left;
+  }
+
+  .name-content {
+    margin: 0;
+    padding: 0;
+  }
+
+  .description {
+    margin-top: 0;
+    width: 130px;
+    height: 20px;
+    line-height: 30px;
+  }
+
+  .description p {
+    font-size: 1.1rem;
+  }
+
+  .right {
+    padding: 0 12px;
+  }
+}
